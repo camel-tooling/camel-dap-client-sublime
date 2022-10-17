@@ -46,7 +46,7 @@ class Camel(dap.AdapterConfiguration):
 - To download from Maven Central repository
 ```sh
 cd /home
-curl -LO https://repo1.maven.org/maven2/com/github/camel-tooling/camel-dap-server/0.4.0/camel-dap-server-0.5.0.jar
+curl -LO https://repo1.maven.org/maven2/com/github/camel-tooling/camel-dap-server/0.5.0/camel-dap-server-0.5.0.jar
   ```
 
 # How to attach camel application to sublime for debugging
