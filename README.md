@@ -46,7 +46,7 @@ class Camel(dap.AdapterConfiguration):
 - To download from Maven Central repository
 ```sh
 cd /home
-curl -LO https://repo1.maven.org/maven2/com/github/camel-tooling/camel-dap-server/0.4.0/camel-dap-server-0.4.0.jar
+curl -LO https://repo1.maven.org/maven2/com/github/camel-tooling/camel-dap-server/0.4.0/camel-dap-server-0.5.0.jar
   ```
 
 # How to attach camel application to sublime for debugging
@@ -126,7 +126,7 @@ public class MyRouteBuilder extends RouteBuilder {
 
   - Your configuration will look something like the following but with some debugger specific fields.
   In  `~/camel-examples/examples/main/camel.sublime-project` file :
-```
+```lisp
 {
     "folders":
     [
